@@ -15,7 +15,7 @@ st.markdown(
     <div class="header" style="display: flex; justify-content: space-between; font-family:Roboto; align-items: center; background-color: #408a93; padding: 0px;">
         <!-- Left Section -->
         <div style="font-size: 1.6rem; font-weight: bold; color: white; margin-left: 10px;">
-            Marine Monitoring Projects
+            Coastal and Marine Monitoring Projects
         </div>
         <!-- Right Section -->
         <div style="font-size: 0.2rem; font-weight: bold; font-family:Roboto; margin-right: 200px;margin-top: 5px">
