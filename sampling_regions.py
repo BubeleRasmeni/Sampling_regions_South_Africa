@@ -158,7 +158,7 @@ def generate_map(filtered_data):
 
     if not filtered_data.empty:
         # Define project colors
-        colors = ["blue", "red", "green", "orange", "purple", "cyan"]
+        colors = ["blue", "red", "green", "orange", "purple", "cyan","black"]
         projects = filtered_data["Project_Name"].unique()
         project_color_map = {
             project: colors[i % len(colors)] for i, project in enumerate(projects)
