@@ -1,0 +1,376 @@
+﻿Platform;Station;Grid;Instrument_Type;Lat;Lon;Status;Project_Name
+Vessel;C11987;KML01;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-29.3817;16.92133333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11988;KML02;CTD_ADCP_AWS_TSG_Niskin Bottle;-29.4167;16.7915;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11989;KML03;CTD_ADCP_AWS_TSG_Niskin Bottle;-29.5105;16.41183333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11990;KML04;CTD_ADCP_AWS_TSG_Niskin Bottle;-29.6572;15.942;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11991;KML05;CTD_ADCP_AWS_TSG_Niskin Bottle;-29.8107;15.3975;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11992;KML06;CTD_ADCP_AWS_TSG_Niskin Bottle;-29.8623;15.17833333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11993;KML07;CTD_ADCP_AWS_TSG_Niskin Bottle;-29.9308;14.95416667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11994;KML08;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-30.0112;14.695;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11995;KML09;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-30.0688;14.46266667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11996;KML10;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-30.1392;14.22516667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11997;NML10;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-31.0652;15.11266667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11998;NML09;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-31.0175;15.31933333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C11999;NML08;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-30.9887;15.4625;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12000;NML07;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-30.9655;15.55666667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12001;NML06;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-30.9262;15.72866667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12002;NML05;CTD_ADCP_AWS_TSG_Niskin Bottle;-30.8693;16.01233333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12003;NML04;CTD_ADCP_AWS_TSG_Niskin Bottle;-30.7458;16.53183333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12004;NML03;CTD_ADCP_AWS_TSG_Niskin Bottle;-30.67;16.87616667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12005;NML02;CTD_ADCP_AWS_TSG_Niskin Bottle;-30.5822;17.26933333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12006;NML01;CTD_ADCP_AWS_TSG_Niskin Bottle;-30.5527;17.391;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12007;SHBML01;CTD_ADCP_AWS_TSG_Niskin Bottle;-32.3013;18.31116667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12008;SHBML02;CTD_ADCP_AWS_TSG_Niskin Bottle;-32.3103;18.275;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12009;SHBML03;CTD_ADCP_AWS_TSG_Niskin Bottle;-32.3303;18.17983333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12010;SHBML04;CTD_ADCP_AWS_TSG_Niskin Bottle;-32.3737;17.99283333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12011;SHBML14;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.6673;18.08766667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12012;SHBML13;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.6837;17.76716667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12013;SHBML05;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.4163;17.80466667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12014;SHBML06;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.46;17.6075;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12015;SHBML07;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.5057;17.421;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12016;SHBML08;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.5733;17.1965;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12017;SHBML09;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.615;16.99166667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12018;SHBML10;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.6573;16.80883333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12019;SHBML11;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.7023;16.61983333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12020;SHBML12;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.7433;16.43233333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12021;SML10;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.558;17.23966667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12022;SML09;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.5192;17.34666667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12023;SML08;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.4883;17.41233333;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12024;SML07;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.4483;17.52066667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12025;SML06;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.3703;17.69116667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12026;SML05;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.3295;17.79116667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12027;SML04;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.31;17.85;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12028;SML03;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.2685;17.9585;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12029;SML02;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.2193;18.06966667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12030;SML01;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-34.15;18.29016667;Active;Integrated Ecosystem Programme  Southern Benguela
+Vessel;C12224;HAB;CTD_ADCP_AWS_TSG_Niskin Bottle_Bongo;-32.6665;18.08933333;Active;Integrated Ecosystem Programme  Southern Benguela
+UTR Mooring;UTR_1;Port Nolloth;UTR;-29.2524;16.8671;Discontinued;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_2;Elands Bay;UTR;-32.3167;18.32;Discontinued;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_3;Paternoster;UTR;-32.705;17.9266666666667;Discontinued;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_4;Hout Bay;UTR;-34.05;18.3166666666667;Discontinued;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_5;Ystervarkpunt;UTR;-34.395;21.7305;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_6;Mosselbay;UTR;-34.1766666666666;22.1463333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_7;Knysna;UTR;-34.0763333333333;23.0601666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_8;Tsitsikamma;UTR;-34.0228333333333;23.8996666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_9;Mostert’s Hoek;UTR;-34.1973333333333;24.7743333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_10;Mangold’s Pool;UTR;-34.0486666666667;25.5866666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_11;Port Alfred;UTR;-33.60285;26.9060;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_12;Aliwal Shoal;UTR;-30.2643166666667;30.828;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_13;Sodwana Bay;UTR;-27.4148333333333;32.7266666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_14;Xai-Xai;UTR;-25.1646;33.6781166666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_15;Ponta Zavora;UTR;-24.4821833333333;35.2391;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_16;Arcadia Reef;UTR;-24.5657333333333;35.28165;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_17;Zambia Reef;UTR;-22.7713333333333;35.584;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_18;Mozambique Island;UTR;-15.0645;40.785;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_19;Songa Mnara;UTR;-9.05448333333333;39.6106666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_20;Zanzibar;UTR;-6.4724;39.3967666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_21;Mnemba Atoll;UTR;-5.84091666666667;39.3956666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_22;Tanga (Karange Is-South);UTR;-5.2344;39.13235;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_23;Tanga (Karange Is –North);UTR;-5.15603333333333;39.1672333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_24;Kasa Reef (Mombasa);UTR;-3.9812;39.7640333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_25;Mouillage de Moroni;UTR;-11.6675333333333;43.2635333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_26;Moheli (Mea);UTR;-12.3915666666667;43.7390333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_27;Nosy Iranja;UTR;-13.5930333333333;47.7844333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_28;Mad Tam Reef;UTR;-17.26715;43.2386;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_29;Nosy Ve;UTR;-23.6551833333333;43.5858;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_30;North East (Cap Est);UTR;-15.2679833333333;50.5078666666667;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_31;South East (Port Dauphin);UTR;-25.0051166666667;47.0972333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_32;Tromelin Island;UTR;-15.8795166666667;54.5119333333333;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_33;Basas da India;UTR;-21.43845;39.67065;Active;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_34;North Island (Site A);UTR;-4.38888333333333;55.2371666666667;Discontinued;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_35;North Island (Site B);UTR;-4.38888333333333;55.2371666666667;Discontinued;Long term monitoring of nearshore temperatures around Southern Africa
+UTR Mooring;UTR_36;Troux aux Biches;UTR;-20.0284;57.53635;Discontinued;Long term monitoring of nearshore temperatures around Southern Africa
+Vessel;ALG12970;ALG12969;Bongo;-34.029405;18.285685;Active;West Coast Cetacean Distribution and Abundance Survey
+Vessel;ALG12971;ALG12970;Bongo;-34.014792;18.296283;Active;West Coast Cetacean Distribution and Abundance Survey
+Vessel;ALG12972;ALG12971;Bongo;-34.015768;18.296335;Active;West Coast Cetacean Distribution and Abundance Survey
+Vessel;ALG12970;ALG12970;Bongo;-34.029405;18.285685;Active;West Coast Cetacean Distribution and Abundance Survey
+Vessel;ALG12973;ALG12972;Bongo;-32.598337;17.938353;Active;West Coast Cetacean Distribution and Abundance Survey
+Vessel;ctd001;ctd001;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.1566666666667;18.2931666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd002;ctd002;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.1696666666667;18.2556666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd003;ctd003;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.1875;18.2005;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd004;ctd004;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.2131666666667;18.1273333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd005;ctd005;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.2353333333333;18.035;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd006;ctd006;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.287;17.9176666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd007;ctd007;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.3468333333333;17.7608333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd008;ctd008;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.3998333333333;17.5943333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd009;ctd009;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4083333333333;17.5478333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd010;ctd010;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4508333333333;17.4413333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd011;ctd011;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5001666666667;17.3005;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd012;ctd012;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5006666666667;17.139;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd013;ctd013;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5001666666667;16.8681666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd014;ctd014;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5043333333333;16.6108333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd015;ctd015;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5081666666667;16.3413333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd016;ctd016;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5141666666667;16.0826666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd017;ctd017;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5001666666667;15.7885;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd018;ctd018;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5011666666667;15.5286666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd019;ctd019;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4998333333333;15.2501666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd020;ctd020;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5013333333333;15.0025;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd021;ctd021;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.499;14.6333333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd022;ctd022;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4893333333333;13.7648333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd023;ctd023;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.508;12.9053333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd024;ctd024;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4998333333333;12.0756666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd025;ctd025;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5018333333333;11.2015;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd026;ctd026;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5003333333333;10.1785;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd027;ctd027;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5041666666667;9.33883333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd028;ctd028;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5005;8.4735;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd029;ctd029;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4991666666667;7.45083333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd030;ctd030;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4998333333333;6.4485;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd031;ctd031;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4983333333333;5.595;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd032;ctd032;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.501;4.74066666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd033;ctd033;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4996666666667;3.7175;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd034;ctd034;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4998333333333;2.702;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd035;ctd035;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4963333333333;1.85383333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd036;ctd036;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4996666666667;0.9955;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd037;ctd037;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4998333333333;-0.000166666666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd038;ctd038;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4996666666667;3.71716666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd039;ctd039;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.501;7.44933333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd040;ctd040;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4993333333333;12.9141666666667;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd041;ctd041;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5073333333333;11.2;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd042;ctd042;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.5006666666667;14.6303333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd043;ctd043;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4995;15.7885;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd044;ctd044;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4978333333333;17.136;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd045;ctd045;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4966666666667;17.3;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;ctd046;ctd046;CTD_ADCP_AWS_TSG_Niskin Bottle;-34.4061666666667;17.5483333333333;Active;South Atlantic Meridional Overturning Circulation Basin wide Array
+Vessel;A0336;00-002;CTD;-28.6633;16.3517;Active;Anchovy Recruitment Survey
+Vessel;A0337;00-003;CTD;-28.675;16.3517;Active;Anchovy Recruitment Survey
+Vessel;A0338;00-004;CTD;-28.6733;15.9783;Active;Anchovy Recruitment Survey
+Vessel;A0340;00-005;CTD;-28.665;15.0551;Active;Anchovy Recruitment Survey
+Vessel;A0341;00-006;CTD;-28.66;15.0;Active;Anchovy Recruitment Survey
+Vessel;A0342;00-007;CTD;-28.66;15.1567;Active;Anchovy Recruitment Survey
+Vessel;A0344;00-008;CTD;-28.66;14.0693;Active;Anchovy Recruitment Survey
+Vessel;A0345;00-009;CTD;-28.66;14.8133;Active;Anchovy Recruitment Survey
+Vessel;A0346;00-010;CTD;-28.66;14.57;Active;Anchovy Recruitment Survey
+Vessel;A0351;02-005;CTD;-28.8333;15.5933;Active;Anchovy Recruitment Survey
+Vessel;A0367;06-004;CTD;-29.1667;16.32;Active;Anchovy Recruitment Survey
+Vessel;A0376;06-003A;CTD;-29.1667;16.595;Active;Anchovy Recruitment Survey
+Vessel;A0382;10-007;CTD;-29.4767;15.73;Active;Anchovy Recruitment Survey
+Vessel;A0383;10-006;CTD;-29.5267;15.5367;Active;Anchovy Recruitment Survey
+Vessel;A0384;10-005;CTD;-29.5;16.0033;Active;Anchovy Recruitment Survey
+Vessel;A0386;10-004;CTD;-29.5383;16.495;Active;Anchovy Recruitment Survey
+Vessel;A0388;10-003;CTD;-29.54;16.7867;Active;Anchovy Recruitment Survey
+Vessel;A0389;10-002;CTD;-29.5217;16.86;Active;Anchovy Recruitment Survey
+Vessel;A0390;-9999;CTD;-29.5;16.92;Active;Anchovy Recruitment Survey
+Vessel;A0396;12-004;CTD;-29.6317;16.535;Active;Anchovy Recruitment Survey
+Vessel;A0407;16-001;CTD;-30.0;17.1;Active;Anchovy Recruitment Survey
+Vessel;A0415;18-003A;CTD;-30.1367;16.7817;Active;Anchovy Recruitment Survey
+Vessel;A0428;22-004;CTD;-30.5167;16.87;Active;Anchovy Recruitment Survey
+Vessel;A0434;24-001;CTD;-30.6817;17.4083;Active;Anchovy Recruitment Survey
+Vessel;A0439;26-005;CTD;-30.8583;16.5617;Active;Anchovy Recruitment Survey
+Vessel;A0448;28-003;CTD;-31.02;17.4217;Active;Anchovy Recruitment Survey
+Vessel;A0449;28-004;CTD;-31.0183;17.121;Active;Anchovy Recruitment Survey
+Vessel;A0450;28-005;CTD;-31.0;16.67;Active;Anchovy Recruitment Survey
+Vessel;A0451;28-005H;CTD;-31.0;16.4217;Active;Anchovy Recruitment Survey
+Vessel;A0452;28-006;CTD;-30.9883;16.2433;Active;Anchovy Recruitment Survey
+Vessel;A0453;28-060H;CTD;-31.0;16.045;Active;Anchovy Recruitment Survey
+Vessel;A0454;28-061H;CTD;-31.0;15.8517;Active;Anchovy Recruitment Survey
+Vessel;A0455;28-007;CTD;-31.0;15.6;Active;Anchovy Recruitment Survey
+Vessel;A0476;36-002;CTD;-31.66;18.0417;Active;Anchovy Recruitment Survey
+Vessel;A0477;36-003;CTD;-31.66;17.0955;Active;Anchovy Recruitment Survey
+Vessel;A0480;36-004;CTD;-31.6533;17.655;Active;Anchovy Recruitment Survey
+Vessel;A0481;36-005;CTD;-31.68;17.1717;Active;Anchovy Recruitment Survey
+Vessel;A0482;36-006;CTD;-31.6717;16.6767;Active;Anchovy Recruitment Survey
+Vessel;A0483;36-007;CTD;-31.6317;16.195;Active;Anchovy Recruitment Survey
+Vessel;A0494;38-001C;CTD;-31.9217;18.225;Active;Anchovy Recruitment Survey
+Vessel;A0502;42-004;CTD;-32.145;17.7933;Active;Anchovy Recruitment Survey
+Vessel;A0510;44-002;CTD;-32.345;18.1717;Active;Anchovy Recruitment Survey
+Vessel;A0511;44-003;CTD;-32.3467;18.09;Active;Anchovy Recruitment Survey
+Vessel;A0515;44-004;CTD;-32.3517;17.7867;Active;Anchovy Recruitment Survey
+Vessel;A0516;44-005;CTD;-32.33;17.2367;Active;Anchovy Recruitment Survey
+Vessel;A0517;44-006;CTD;-32.3213;17.2633;Active;Anchovy Recruitment Survey
+Vessel;A0520;46-004;CTD;-32.4767;17.8283;Active;Anchovy Recruitment Survey
+Vessel;A0523;46-003;CTD;-32.5067;18.0967;Active;Anchovy Recruitment Survey
+Vessel;A0529;48-003A;CTD;-32.66;17.9833;Active;Anchovy Recruitment Survey
+Vessel;A0532;A-001;CTD;-32.5417;18.0167;Active;Anchovy Recruitment Survey
+Vessel;A0541;52-005;CTD;-32.0433;16.87;Active;Anchovy Recruitment Survey
+Vessel;A0542;52-006;CTD;-33.105;16.3883;Active;Anchovy Recruitment Survey
+Vessel;A0543;52-007;CTD;-33.1283;15.0971;Active;Anchovy Recruitment Survey
+Vessel;A0552;-9999;CTD;-32.8733;17.78;Active;Anchovy Recruitment Survey
+Vessel;A0553;-9999;CTD;-32.88;17.6783;Active;Anchovy Recruitment Survey
+Vessel;A0554;-9999;CTD;-32.8817;17.3467;Active;Anchovy Recruitment Survey
+Vessel;A0555;-9999;CTD;-32.8917;17.48;Active;Anchovy Recruitment Survey
+Vessel;A0556a;-9999;CTD;-32.895;17.345;Active;Anchovy Recruitment Survey
+Vessel;A0556;-9999;CTD;-32.895;17.345;Active;Anchovy Recruitment Survey
+Vessel;A0557;-9999;CTD;-32.84;17.275;Active;Anchovy Recruitment Survey
+Vessel;A0558;-9999;CTD;-32.875;17.78;Active;Anchovy Recruitment Survey
+Vessel;A0559;-9999;CTD;-32.8817;17.6783;Active;Anchovy Recruitment Survey
+Vessel;A0560;-9999;CTD;-32.885;17.58;Active;Anchovy Recruitment Survey
+Vessel;A0561;-9999;CTD;-32.8933;17.485;Active;Anchovy Recruitment Survey
+Vessel;A0562;-9999;CTD;-32.895;17.3783;Active;Anchovy Recruitment Survey
+Vessel;A0563;-9999;CTD;-32.8333;17.27;Active;Anchovy Recruitment Survey
+Vessel;A0568;56-004;CTD;-33.2633;17.4617;Active;Anchovy Recruitment Survey
+Vessel;A0569;56-005;CTD;-33.37;17.0317;Active;Anchovy Recruitment Survey
+Vessel;A0570;58-005;CTD;-33.4967;17.16;Active;Anchovy Recruitment Survey
+Vessel;A0576;58-005;CTD;-33.225;18.03;Active;Anchovy Recruitment Survey
+Vessel;A0579;60-002;CTD;-33.4967;18.16;Active;Anchovy Recruitment Survey
+Vessel;A0582;60-003;CTD;-33.44;17.9283;Active;Anchovy Recruitment Survey
+Vessel;A0583;60-004;CTD;-33.54;17.67;Active;Anchovy Recruitment Survey
+Vessel;A0584;60-005;CTD;-33.6967;17.2533;Active;Anchovy Recruitment Survey
+Vessel;A0590;60-001;CTD;-33.505;18.2733;Active;Anchovy Recruitment Survey
+Vessel;A0594;64-002;CTD;-33.6067;18.19;Active;Anchovy Recruitment Survey
+Vessel;A0607;68-002;CTD;-33.84;18.3133;Active;Anchovy Recruitment Survey
+Vessel;A0608;68-003;CTD;-33.8983;18.255;Active;Anchovy Recruitment Survey
+Vessel;A0609;68-004;CTD;-33.995;18.0017;Active;Anchovy Recruitment Survey
+Vessel;A0610;68-005;CTD;-34.23;17.66;Active;Anchovy Recruitment Survey
+Vessel;A0616;71-001;CTD;-34.0983;18.2917;Active;Anchovy Recruitment Survey
+Vessel;A0624;74-004;CTD;-34.655;18.06;Active;Anchovy Recruitment Survey
+Vessel;A0627;74-002;CTD;-34.4083;18.32;Active;Anchovy Recruitment Survey
+Vessel;A0629;076A;CTD;-34.22;18.74;Active;Anchovy Recruitment Survey
+Vessel;A0630;-9999;CTD;-34.3883;18.76;Active;Anchovy Recruitment Survey
+Vessel;A0631;-9999;CTD;-34.4667;18.925;Active;Anchovy Recruitment Survey
+Vessel;A0632;-9999;CTD;-34.63;19.2;Active;Anchovy Recruitment Survey
+Vessel;A0633;-9999;CTD;-34.96;19.42;Active;Anchovy Recruitment Survey
+Vessel;A0637;090D;CTD;-35.0233;20.325;Active;Anchovy Recruitment Survey
+Vessel;A0638;090E;CTD;-34.5217;19.2083;Active;Anchovy Recruitment Survey
+Vessel;A4399;52-08;CTD;-34.5412;18.4178;Active;Anchovy Recruitment Survey
+Vessel;A4400;52-06;CTD;-34.4325;18.5252;Active;Anchovy Recruitment Survey
+Vessel;A4401;52-04;CTD;-34.2855;18.6585;Active;Anchovy Recruitment Survey
+Vessel;A4403;52-02;CTD;-34.1798;18.7372;Active;Anchovy Recruitment Survey
+Vessel;A4410;60-12;CTD;-35.2427;18.9003;Active;Anchovy Recruitment Survey
+Vessel;A4411;60-10;CTD;-35.0937;18.9667;Active;Anchovy Recruitment Survey
+Vessel;A4412;60-08;CTD;-34.9112;19.0542;Active;Anchovy Recruitment Survey
+Vessel;A4413;60-06;CTD;-34.7788;19.1068;Active;Anchovy Recruitment Survey
+Vessel;A4415;60-04;CTD;-34.6143;19.1672;Active;Anchovy Recruitment Survey
+Vessel;A4416;60-02;CTD;-34.4625;19.2437;Active;Anchovy Recruitment Survey
+Vessel;A4425;68-14;CTD;-35.8045;19.7305;Active;Anchovy Recruitment Survey
+Vessel;A4427;68-12;CTD;-35.6355;19.7533;Active;Anchovy Recruitment Survey
+Vessel;A4428;68-10;CTD;-35.474;19.7518;Active;Anchovy Recruitment Survey
+Vessel;A4429;68-08;CTD;-35.3028;19.7638;Active;Anchovy Recruitment Survey
+Vessel;A4430;68-06;CTD;-35.1472;19.7892;Active;Anchovy Recruitment Survey
+Vessel;A4431;68-04;CTD;-34.9822;19.803;Active;Anchovy Recruitment Survey
+Vessel;A4432;68-02;CTD;-34.8175;19.8228;Active;Anchovy Recruitment Survey
+Vessel;A4447;76-22;CTD;-36.2138;20.8042;Active;Anchovy Recruitment Survey
+Vessel;A4448;76-20;CTD;-36.0492;20.7707;Active;Anchovy Recruitment Survey
+Vessel;A4450;76-18;CTD;-35.8783;20.733;Active;Anchovy Recruitment Survey
+Vessel;A4451;76-16;CTD;-35.7227;20.7042;Active;Anchovy Recruitment Survey
+Vessel;A4452;76-14;CTD;-35.5562;20.6613;Active;Anchovy Recruitment Survey
+Vessel;A4454;76-12;CTD;-35.3908;20.6317;Active;Anchovy Recruitment Survey
+Vessel;A4481;84-28;CTD;-36.59;21.7;Active;Anchovy Recruitment Survey
+Vessel;A4482;84-26;CTD;-36.4497;21.6693;Active;Anchovy Recruitment Survey
+Vessel;A4483;84-24;CTD;-36.2717;21.6337;Active;Anchovy Recruitment Survey
+Vessel;A4484;84-22;CTD;-36.1182;21.594;Active;Anchovy Recruitment Survey
+Vessel;A4485;84-20;CTD;-35.9203;21.5425;Active;Anchovy Recruitment Survey
+Vessel;A4486;84-18;CTD;-35.7502;21.4822;Active;Anchovy Recruitment Survey
+Vessel;A4488;84-16;CTD;-35.6247;21.5058;Active;Anchovy Recruitment Survey
+Vessel;A4489;84-14;CTD;-35.4518;21.463;Active;Anchovy Recruitment Survey
+Vessel;A4491;84-12;CTD;-35.2878;21.4252;Active;Anchovy Recruitment Survey
+Vessel;A4492;84-10;CTD;-35.1252;21.3945;Active;Anchovy Recruitment Survey
+Vessel;A4493;84-08;CTD;-34.9588;21.3588;Active;Anchovy Recruitment Survey
+Vessel;A4495;84-06;CTD;-34.7982;21.3155;Active;Anchovy Recruitment Survey
+Vessel;A4496;84-04;CTD;-34.6375;21.276;Active;Anchovy Recruitment Survey
+Vessel;A4498;84-02;CTD;-34.4647;21.237;Active;Anchovy Recruitment Survey
+Vessel;A4516;92-20;CTD;-35.774;22.2602;Active;Anchovy Recruitment Survey
+Vessel;A4517;92-18;CTD;-35.5277;22.2577;Active;Anchovy Recruitment Survey
+Vessel;A4518;92-16;CTD;-35.3818;22.2113;Active;Anchovy Recruitment Survey
+Vessel;A4520;92-14;CTD;-35.2345;22.0022;Active;Anchovy Recruitment Survey
+Vessel;A4521;92-12;CTD;-35.0653;22.1563;Active;Anchovy Recruitment Survey
+Vessel;A4524;92-10;CTD;-34.9032;22.1607;Active;Anchovy Recruitment Survey
+Vessel;A4525;92-08;CTD;-34.736;22.1222;Active;Anchovy Recruitment Survey
+Vessel;A4526;92-06;CTD;-34.581;22.0963;Active;Anchovy Recruitment Survey
+Vessel;A4527;92-04;CTD;-34.4058;22.0245;Active;Anchovy Recruitment Survey
+Vessel;A4529;92-02;CTD;-34.2822;22.1478;Active;Anchovy Recruitment Survey
+Vessel;A4542;100-14;CTD;-35.0862;23.0395;Active;Anchovy Recruitment Survey
+Vessel;A4543;100-12;CTD;-35.0;22.97;Active;Anchovy Recruitment Survey
+Vessel;A4545;100-10;CTD;-34.7035;22.6833;Active;Anchovy Recruitment Survey
+Vessel;A4546;100-08;CTD;-34.542;22.542;Active;Anchovy Recruitment Survey
+Vessel;A4548;100-06;CTD;-34.3295;22.2813;Active;Anchovy Recruitment Survey
+Vessel;A4549;100-04;CTD;-34.26;22.833;Active;Anchovy Recruitment Survey
+Vessel;A4551;100-02;CTD;-34.1;22.8;Active;Anchovy Recruitment Survey
+Vessel;A4560;108-12;CTD;-34.8215;23.7902;Active;Anchovy Recruitment Survey
+Vessel;A4562;108-10;CTD;-34.6598;23.77;Active;Anchovy Recruitment Survey
+Vessel;A4564;108-08;CTD;-34.4933;23.7117;Active;Anchovy Recruitment Survey
+Vessel;A4566;108-06;CTD;-34.3303;23.6658;Active;Anchovy Recruitment Survey
+Vessel;A4567;108-04;CTD;-34.1522;23.5988;Active;Anchovy Recruitment Survey
+Vessel;A4568;108-02;CTD;-34.0083;23.5917;Active;Anchovy Recruitment Survey
+Vessel;A4578;116-10;CTD;-34.8887;24.5785;Active;Anchovy Recruitment Survey
+Vessel;A4579;116-08;CTD;-34.7002;24.5662;Active;Anchovy Recruitment Survey
+Vessel;A4580;116-06;CTD;-34.5333;24.5248;Active;Anchovy Recruitment Survey
+Vessel;A4581;116-04;CTD;-34.3755;24.4805;Active;Anchovy Recruitment Survey
+Vessel;A4584;116-02;CTD;-34.2377;24.4482;Active;Anchovy Recruitment Survey
+Vessel;A4590;124-08;CTD;-34.4945;25.3323;Active;Anchovy Recruitment Survey
+Vessel;A4591;124-06;CTD;-34.3327;25.2968;Active;Anchovy Recruitment Survey
+Vessel;A4592;124-04;CTD;-34.1702;25.262;Active;Anchovy Recruitment Survey
+Vessel;A4594;124-02;CTD;-34.0088;25.2272;Active;Anchovy Recruitment Survey
+Vessel;A4601;132-10;CTD;-34.4085;26.1198;Active;Anchovy Recruitment Survey
+Vessel;A4602;132-08;CTD;-34.2443;26.0923;Active;Anchovy Recruitment Survey
+Vessel;A4603;132-06;CTD;-34.0767;26.0642;Active;Anchovy Recruitment Survey
+Vessel;A4605;132-04;CTD;-33.9145;26.0307;Active;Anchovy Recruitment Survey
+Vessel;A4607;132-02;CTD;-33.7407;25.9937;Active;Anchovy Recruitment Survey
+Vessel;A4620;144-02;CTD;-33.5412;27.154;Active;Anchovy Recruitment Survey
+Vessel;A4621;144-04;CTD;-33.7057;27.2293;Active;Anchovy Recruitment Survey
+Vessel;A4622;144-06;CTD;-33.8225;27.2833;Active;Anchovy Recruitment Survey
+Vessel;A4632;156-05;CTD;-33.1475;28.2702;Active;Anchovy Recruitment Survey
+Vessel;A4633;156-04;CTD;-33.1052;28.1885;Active;Anchovy Recruitment Survey
+Vessel;A4634;156-02;CTD;-32.9315;28.1052;Active;Anchovy Recruitment Survey
+Vessel;A4643;168-02;CTD;-32.2408;28.9612;Active;Anchovy Recruitment Survey
+Vessel;A4644;168-03;CTD;-32.3033;29.0143;Active;Anchovy Recruitment Survey
+Vessel;A4646;168-04;CTD;-32.3863;29.0783;Active;Anchovy Recruitment Survey
+Vessel;A4656;180-02;CTD;-31.4712;29.7782;Active;Anchovy Recruitment Survey
+Vessel;A4657;180-03;CTD;-31.5517;29.8227;Active;Anchovy Recruitment Survey
+Vessel;A4669;192-02;CTD;-30.6947;30.5263;Active;Anchovy Recruitment Survey
+Vessel;A4670;192-03;CTD;-30.7475;30.6012;Active;Anchovy Recruitment Survey
+Vessel;A4681;204-06;CTD;-30.0003;31.3443;Active;Anchovy Recruitment Survey
+Vessel;A4682;204-04;CTD;-29.8917;31.218;Active;Anchovy Recruitment Survey
+Vessel;A4683;204-02;CTD;-29.7533;31.1113;Active;Anchovy Recruitment Survey
+Vessel;A4696;216-02;CTD;-29.0712;31.7572;Active;Anchovy Recruitment Survey
+Vessel;A4697;216-04;CTD;-29.0742;32.0963;Active;Anchovy Recruitment Survey
+Vessel;A4698;216-06;CTD;-29.2088;32.2027;Active;Anchovy Recruitment Survey
+Vessel;A8817;01-07A;CTD;-35.253;19.79;Active;Anchovy Recruitment Survey
+Vessel;A8818;02-07;CTD;-35.208;19.525;Active;Anchovy Recruitment Survey
+Vessel;A8819;02-05;CTD;-35.067;19.615;Active;Anchovy Recruitment Survey
+Vessel;A8848;62-05;CTD;-28.567;15.913;Active;Anchovy Recruitment Survey
+Vessel;A8849;62-03;CTD;-28.567;16.1;Active;Anchovy Recruitment Survey
+Vessel;A8850;62-01;CTD;-28.567;16.247;Active;Anchovy Recruitment Survey
+Vessel;A8857;64-11;CTD;-28.002;14.767;Active;Anchovy Recruitment Survey
+Vessel;A8859;64-07;CTD;-28.002;15.143;Active;Anchovy Recruitment Survey
+Vessel;A8860;64-05;CTD;-28.002;15.33;Active;Anchovy Recruitment Survey
+Vessel;A8861;64-03;CTD;-28.002;15.517;Active;Anchovy Recruitment Survey
+Vessel;A8862;64-01;CTD;-28.002;15.683;Active;Anchovy Recruitment Survey
+Vessel;A8869;67-01;CTD;-26.883;15.117;Active;Anchovy Recruitment Survey
+Vessel;A8870;67-03;CTD;-26.883;14.933;Active;Anchovy Recruitment Survey
+Vessel;A8871;67-05;CTD;-26.883;14.745;Active;Anchovy Recruitment Survey
+Vessel;A10045;28-01;CTD;-30.45;17.3;Active;Anchovy Recruitment Survey
+Vessel;A10046;28-02;CTD;-30.455;17.238333;Active;Anchovy Recruitment Survey
+Vessel;A10048;28-03;CTD;-30.447;17.117;Active;Anchovy Recruitment Survey
+Vessel;A10049;28-05;CTD;-30.45;16.92;Active;Anchovy Recruitment Survey
+Vessel;A9953;05-01;CTD;-34.14;18.74;Active;Anchovy Recruitment Survey
+Vessel;A9956;05-03;CTD;-34.298;18.627;Active;Anchovy Recruitment Survey
+Vessel;A9958;05-05;CTD;-34.445;18.515;Active;Anchovy Recruitment Survey
+Vessel;A9960;05-07;CTD;-34.58;18.43;Active;Anchovy Recruitment Survey
+Vessel;A9966;08-05;CTD;-34.042;17.965;Active;Anchovy Recruitment Survey
+Vessel;A9967;08-04;CTD;-34.001;18.053;Active;Anchovy Recruitment Survey
+Vessel;A9968;08-03;CTD;-33.98;18.133;Active;Anchovy Recruitment Survey
+Vessel;A9969;08-02;CTD;-33.968;18.255;Active;Anchovy Recruitment Survey
+Vessel;A9970;08-01;CTD;-33.94;18.327;Active;Anchovy Recruitment Survey
+Vessel;A9987;14-04;CTD;-32.87;17.527;Active;Anchovy Recruitment Survey
+Vessel;A9988;14-03;CTD;-32.866667;17.633333;Active;Anchovy Recruitment Survey
+Vessel;A9990;14-02;CTD;-32.867;17.732;Active;Anchovy Recruitment Survey
+Vessel;A9991;14-01;CTD;-32.87;17.827;Active;Anchovy Recruitment Survey
+Vessel;A11548;01-01;CTD;-34.149;18.279;Active;Pelagic Recruitment Survey
+Vessel;A11548;01-01;CTD;-34.149;18.279;Active;Pelagic Recruitment Survey
+Vessel;A11549;01-03;CTD;-34.28;18.155;Active;Pelagic Recruitment Survey
+Vessel;A11550;01-05;CTD;-34.43;18.075;Active;Pelagic Recruitment Survey
+Vessel;A11567;05-01;CTD;-34.439;19.182;Active;Pelagic Recruitment Survey
+Vessel;A11568A;05-03;CTD;-34.573;19.087;Active;Pelagic Recruitment Survey
+Vessel;A11571;05-05;CTD;-34.723;18.978;Active;Pelagic Recruitment Survey
+Vessel;A11573;05-07;CTD;-34.868;18.878;Active;Pelagic Recruitment Survey
+Vessel;A11583;07-07;CTD;-35.129;19.193;Active;Pelagic Recruitment Survey
+Vessel;A11584;08-07;CTD;-35.291;19.677;Active;Pelagic Recruitment Survey
+Vessel;A11585;08-05;CTD;-35.177;19.783;Active;Pelagic Recruitment Survey
+Vessel;A11586;08-03;CTD;-35.029;19.886;Active;Pelagic Recruitment Survey
+Vessel;A11587;08-01;CTD;-34.878;19.984;Active;Pelagic Recruitment Survey
+Vessel;A11689;33-03;CTD;-33.087;17.679;Active;Pelagic Recruitment Survey
+Vessel;A11690;33-05;CTD;-33.174;17.501;Active;Pelagic Recruitment Survey
+Vessel;A11703;37-07;CTD;-32.429;17.724;Active;Pelagic Recruitment Survey
+Vessel;A11704;37-05;CTD;-32.435;17.911;Active;Pelagic Recruitment Survey
+Vessel;A11705;37-03;CTD;-32.435;18.105;Active;Pelagic Recruitment Survey
+Vessel;A11707;37-01;CTD;-32.436;18.299;Active;Pelagic Recruitment Survey
+Vessel;A11765;49-05;CTD;-30.428;16.924;Active;Pelagic Recruitment Survey
+Vessel;A11767A;49-03;CTD;-30.431;17.116;Active;Pelagic Recruitment Survey
+Vessel;A11768;49-02;CTD;-30.428;17.21;Active;Pelagic Recruitment Survey
+Vessel;A11800;57-04;CTD;-28.85;16.279;Active;Pelagic Recruitment Survey
+Vessel;A11802;57-02;CTD;-28.853;16.469;Active;Pelagic Recruitment Survey
+Vessel;A11803;57-01;CTD;-28.859;16.561;Active;Pelagic Recruitment Survey
+Mooring;Sez01;Unkown;ADCP;-30.422;30.693;Unkown;African Coelacanth Ecosystem Programme
+Mooring;Dbn02;Unkown;ADCP;-29.017;31.271;Unkown;African Coelacanth Ecosystem Programme
+Mooring;RiB02;Unkown;ADCP;-29.02;32.26;Unkown;African Coelacanth Ecosystem Programme
+Mooring;RiB01;Unkown;ADCP;-28.92;32.06;Unkown;African Coelacanth Ecosystem Programme
