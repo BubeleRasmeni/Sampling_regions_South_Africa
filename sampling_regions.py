@@ -195,4 +195,4 @@ def generate_map(filtered_data):
 
 # Generate the map with the filtered data
 leafmap_component = generate_map(filtered_data)
-leafmap_component.to_streamlit(height=700, use_container_width=True)
+leafmap_component.to_streamlit(height=900, use_container_width=True)
