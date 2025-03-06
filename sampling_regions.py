@@ -180,4 +180,4 @@ def generate_map(filtered_data, show_legend):
 # Render the Map in Streamlit
 # ------------------------------
 leafmap_component = generate_map(filtered_data, show_legend)
-leafmap_component.to_streamlit(height=900, use_container_width=True)
+leafmap_component.to_streamlit(height=700, use_container_width=True)
