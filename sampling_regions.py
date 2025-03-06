@@ -181,7 +181,3 @@ def generate_map(filtered_data, show_legend):
 # ------------------------------
 leafmap_component = generate_map(filtered_data, show_legend)
 leafmap_component.to_streamlit(height=900, use_container_width=True)
-
-# Generate the map with the filtered data
-leafmap_component = generate_map(filtered_data)
-leafmap_component.to_streamlit(height=700, use_container_width=True)
