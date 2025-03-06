@@ -81,16 +81,6 @@ This will:
 │-- README.md        # Project documentation
 │-- .gitignore       # Ignore unnecessary files in Git
 ```
-
----
-
-## ✨ Contributing
-1. **Fork** the repository.
-2. **Create** a new branch: `git checkout -b feature-branch`
-3. **Commit** your changes: `git commit -m "Add new feature"`
-4. **Push** to the branch: `git push origin feature-branch`
-5. **Submit a Pull Request** 🚀
-
 ---
 
 ## 📄 License
@@ -101,6 +91,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 📞 Contact
 📧 **Developer:** [Bubele Rasmeni](https://github.com/BubeleRasmeni)  
 🔗 **Repository:** [GitHub](https://github.com/BubeleRasmeni/Sampling_regions_South_Africa)  
-🌍 **Website:** [rasmenianalytics.co.za](https://rasmenianalytics.co.za)
-
 ---
