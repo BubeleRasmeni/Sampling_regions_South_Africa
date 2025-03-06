@@ -143,7 +143,7 @@ def generate_map(filtered_data, show_legend):
         measure_control=False,
         fullscreen_control=False,
         attribution_control=True,
-        height="900px",
+        height=900,
     )
 
     if not filtered_data.empty:
