@@ -90,5 +90,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 📞 Contact
 📧 **Developer:** [Bubele Rasmeni](https://github.com/BubeleRasmeni)  
-🔗 **Repository:** [GitHub](https://github.com/BubeleRasmeni/Sampling_regions_South_Africa)  
 ---
