@@ -1,0 +1,15 @@
+version: "3"
+services:
+  streamlit_app:
+    build: .
+    ports:
+      - "8501:8501"  # Expose Streamlit on port 8501
+    volumes:
+      - ./data:/app/data  # Map the local 'data' folder to the container's 'data' directory
+      - ./assets:/app/assets  # Mount the 'assets' folder into the container
+      - ./:/app  # Mount the current directory to /app in the container
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true  # Run in headless mode for Docker
+      - STREAMLIT_SERVER_PORT=8501  # Define the port to run the app on
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0  # Ensure the app is accessible on all network interfaces
+    command: ["streamlit", "run", "sampling_regions.py", "--server.port=8501", "--server.address=0.0.0.0"]

@@ -18,3 +18,9 @@ venv/
 # Ignore specific config files
 config.yaml
 credentials.json
+
+# Streamlit-related
+.cache/
+config.toml
+*.streamlit/
+*.html

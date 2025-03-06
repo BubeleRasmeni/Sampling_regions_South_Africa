@@ -1,150 +1,141 @@
 import streamlit as st
 import pandas as pd
 import leafmap.foliumap as leafmap
-from css import app_css  # Import CSS as a string
+import os
 
-# Set the page configuration to wide mode
+# ------------------------------
+# Page Configuration & Styling
+# ------------------------------
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
-# Apply CSS styling
-st.markdown(app_css, unsafe_allow_html=True)
+# Load custom CSS from file
+css_file_path = "assets/styles.css"
+if os.path.exists(css_file_path):
+    with open(css_file_path) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+else:
+    st.warning("Custom CSS file not found. Using default styles.")
 
+# ------------------------------
 # Header Section
+# ------------------------------
 st.markdown(
     """
-    <div class="header" style="display: flex; justify-content: space-between; font-family:Roboto; align-items: center; background-color: #408a93; padding: 0px;">
+    <div class="header" style="display: flex; justify-content: space-between; font-family:Roboto; align-items: center; background-color: #408a93; padding: 10px;">
         <!-- Left Section -->
         <div style="font-size: 1.6rem; font-weight: bold; color: white; margin-left: 10px;">
             Coastal and Marine Monitoring Projects
         </div>
         <!-- Right Section -->
-        <div style="font-size: 0.2rem; font-weight: bold; font-family:Roboto; margin-right: 200px;margin-top: 5px">
+        <div style="font-size: 1rem; font-weight: bold; margin-right: 20px;">
             <a href="https://data.ocean.gov.za/" target="_blank" style="color: white; text-decoration: none;">
                 MIMS
             </a>
         </div>
     </div>
-    <div style="text-align: left; font-size: 0.8rem; margin-left: 10px; font-family:Roboto; font-weight: bold; color: white; background-color: #408a93; padding: 0px;">
+    <div style="text-align: left; font-size: 0.9rem; margin-left: 10px; font-family:Roboto; font-weight: bold; color: white; background-color: #408a93; padding: 5px;">
         Department of Forestry, Fisheries, and the Environment
     </div>
     """,
     unsafe_allow_html=True,
 )
 
-# Apply custom CSS
-st.markdown(
-    """
-    <style>
-    /* Header Styling */
-    .header {
-        background-color: #006400;
-        padding: 1px;
-        text-align: center;
-        color: white;
-        font-size: 1rem;
-        font-family: Roboto;
-    }
-    .header a {
-        color: #FFD700;
-        margin-left: 20px;
-        text-decoration: none;
-        font-size: 1.2rem;
-    }
-    .header a:hover {
-        text-decoration: underline;
-    }
-    .st-emotion-cache-12skds7 {
-        height: 0rem;
-    }
-
-    /* Sidebar Styling */
-    [data-testid="stSidebar"] {
-        transition: margin-left 0.3s ease-in-out; /* Smooth slide animation */
-        z-index: 1 !important;
-    }
-    .sidebar-collapsed [data-testid="stSidebar"] {
-        margin-left: -400px; /* Slide sidebar out of view */
-    }
-    
-    .st-emotion-cache-19u4bdk {
-        position: fixed;
-        top: 20rem;
-        left: 0.2rem;
-        z-index: 999990;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        transition: left 300ms;
-        background-color: #408a93;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-
-# Function to load and clean the dataset
+# ------------------------------
+# Function to Load & Clean Data
+# ------------------------------
 @st.cache_data
 def load_data(file_path):
+    """Loads and cleans the dataset safely."""
     try:
         df = pd.read_csv(file_path, sep=";", encoding="utf-8")
+        required_columns = {"Lat", "Lon", "Project_Name"}
+        missing_columns = required_columns - set(df.columns)
+        
+        if missing_columns:
+            st.error(f"Missing required columns: {', '.join(missing_columns)}")
+            return pd.DataFrame()
+
         df.rename(columns={"Lat": "latitude", "Lon": "longitude"}, inplace=True)
         return df
+    except FileNotFoundError:
+        st.error("Data file not found. Please check the backend data path.")
+        return pd.DataFrame()
+    except pd.errors.ParserError:
+        st.error("Error parsing the CSV file. Ensure it's properly formatted.")
+        return pd.DataFrame()
     except Exception as e:
-        st.error(f"Error reading the file: {e}")
+        st.error(f"Unexpected error: {e}")
         return pd.DataFrame()
 
+# ------------------------------
+# Load Data from Backend
+# ------------------------------
+default_data_path = "data/dffe_sampling_Stations.csv"
 
-# Load the dataset
-data = load_data("data/dffe_sampling_Stations.csv")
+with st.spinner("Loading data..."):
+    data = load_data(default_data_path)
 
-# Dynamically generate the list of unique projects
-predefined_projects = data["Project_Name"].dropna().unique().tolist()
+# Get unique project names
+predefined_projects = data["Project_Name"].dropna().unique().tolist() if not data.empty else []
 
-# Initialize session state for project checkboxes
+# ------------------------------
+# Assign Colors to Projects
+# ------------------------------
+
+# Default color palette (expand as needed)
+default_colors = ["blue", "red", "green", "black", "purple", "cyan", "orange", "pink", "yellow", "brown"]
+
+# Assign colors dynamically to projects
+project_color_map = {}
+used_colors = set()
+
+for i, project in enumerate(predefined_projects):
+    if project not in project_color_map:
+        color = default_colors[i % len(default_colors)]  # Assign next color in list
+        project_color_map[project] = color
+        used_colors.add(color)
+
+# ------------------------------
+# Sidebar - Project Selection
+# ------------------------------
 if "projects_initialized" not in st.session_state:
     for project in predefined_projects:
         st.session_state[f"project-{project}"] = True  # Select all projects by default
     st.session_state["projects_initialized"] = True
 
-# Sidebar with layer controls for projects
 with st.sidebar:
     st.markdown("### Select projects:")
-
-    # Side-by-side buttons for "Select All" and "Unselect All"
+    
+    # Buttons for Select All / Unselect All
     col1, col2 = st.columns([1, 1])
     with col1:
         if st.button("Select All"):
             for project in predefined_projects:
                 st.session_state[f"project-{project}"] = True
-            # st.experimental_rerun()
     with col2:
         if st.button("Unselect All"):
             for project in predefined_projects:
                 st.session_state[f"project-{project}"] = False
-            # st.experimental_rerun()
 
-    # Display checkboxes for each project
-    selected_projects = []
-    for project in predefined_projects:
-        if st.checkbox(
-            project,
-            value=st.session_state[f"project-{project}"],
-            key=f"project-{project}",
-        ):
-            selected_projects.append(project)
+    # Checkboxes for each project
+    selected_projects = [
+        project for project in predefined_projects
+        if st.checkbox(project, value=st.session_state[f"project-{project}"], key=f"project-{project}")
+    ]
+    
+    st.markdown("### Legend")
+    # Toggle for showing legend
+    show_legend = st.checkbox("Show Legend", value=True)
 
-# Filter the dataframe based on the selected projects
-if selected_projects:
-    filtered_data = data[data["Project_Name"].isin(selected_projects)]
-else:
-    filtered_data = (
-        pd.DataFrame()
-    )  # Return an empty dataframe if no project is selected
+    
+# Filter data based on selected projects
+filtered_data = data[data["Project_Name"].isin(selected_projects)] if selected_projects else pd.DataFrame()
 
-
-# Function to generate map with layers
-def generate_map(filtered_data):
+# ------------------------------
+# Function to Generate Interactive Map
+# ------------------------------
+def generate_map(filtered_data, show_legend):
+    """Generates a Leafmap interactive map with project layers."""
     m = leafmap.Map(
         center=[-35.0, 21.0],
         zoom=6,
@@ -152,27 +143,20 @@ def generate_map(filtered_data):
         measure_control=False,
         fullscreen_control=False,
         attribution_control=True,
-        height="450px",
-        width="800px",
+        height="900px",
     )
 
     if not filtered_data.empty:
-        # Define project colors
-        colors = ["blue", "red", "green","black", "purple", "cyan","orange"]
-        projects = filtered_data["Project_Name"].unique()
-        project_color_map = {
-            project: colors[i % len(colors)] for i, project in enumerate(projects)
-        }
+        legend_dict = {}  # Store legend items
 
-        # Add project layers
-        for project in projects:
-            project_data = filtered_data[filtered_data["Project_Name"] == project]
-            color = project_color_map[project]
+        for project, project_data in filtered_data.groupby("Project_Name"):
+            color = project_color_map.get(project, "gray")  # Use assigned color or default to gray
+            
             m.add_circle_markers_from_xy(
                 project_data,
                 x="longitude",
                 y="latitude",
-                radius=3,
+                radius=4,
                 stroke=True,
                 color=color,
                 fill_color=color,
@@ -180,19 +164,24 @@ def generate_map(filtered_data):
                 layer_name=f"{project} Layer",
             )
 
-        # Add a custom legend
-        legend_dict = {project: project_color_map[project] for project in projects}
-        m.add_legend(title="Projects", legend_dict=legend_dict)
+            legend_dict[project] = color  # Add to legend
 
-        m.add_layer_control()  # Enable toggling of layers
+        # Conditionally add a legend
+        if show_legend and legend_dict:
+            m.add_legend(title="Projects", legend_dict=legend_dict)
+
+        m.add_layer_control()  # Enable layer toggling
         m.add_basemap()
     else:
-        # Add a placeholder map with no data
         m.add_basemap("OpenStreetMap")
-
     return m
 
+# ------------------------------
+# Render the Map in Streamlit
+# ------------------------------
+leafmap_component = generate_map(filtered_data, show_legend)
+leafmap_component.to_streamlit(height=900, use_container_width=True)
 
 # Generate the map with the filtered data
 leafmap_component = generate_map(filtered_data)
-leafmap_component.to_streamlit(height=900, use_container_width=True)
+leafmap_component.to_streamlit(height=700, use_container_width=True)
